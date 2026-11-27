@@ -1,0 +1,101 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Mencatat Penyewaan" id="Mencatat Penyewaan">
+    <mxGraphModel dx="1943" dy="1060" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1040" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;verticalAlign=top;fontStyle=1;fontSize=18;" value="Petugas" vertex="1">
+          <mxGeometry height="960" width="320" x="40" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;verticalAlign=top;fontStyle=1;fontSize=18;" value="Sistem" vertex="1">
+          <mxGeometry height="960" width="700" x="360" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="ellipse;html=1;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="32" width="32" x="184" y="66" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=14;" value="Membuka menu penyewaan" vertex="1">
+          <mxGeometry height="60" width="260" x="70" y="136" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=14;" value="Memilih pelanggan dan kendaraan, lalu mengisi tanggal sewa dan lama sewa" vertex="1">
+          <mxGeometry height="100" width="260" x="70" y="236" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=14;" value="Memeriksa data input" vertex="1">
+          <mxGeometry height="60" width="240" x="400" y="256" as="geometry" />
+        </mxCell>
+        <mxCell id="9" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=13;" value="Kolom terisi dan lama sewa valid?" vertex="1">
+          <mxGeometry height="100" width="220" x="410" y="366" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=14;" value="Menampilkan pesan kesalahan dan cara memperbaikinya" vertex="1">
+          <mxGeometry height="80" width="240" x="795" y="376" as="geometry" />
+        </mxCell>
+        <mxCell id="11" parent="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="36" width="36" x="897" y="496" as="geometry" />
+        </mxCell>
+        <mxCell id="12" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=13;" value="Status kendaraan?" vertex="1">
+          <mxGeometry height="100" width="220" x="420" y="532" as="geometry" />
+        </mxCell>
+        <mxCell id="13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=14;" value="Menampilkan pesan kendaraan sedang tidak tersedia" vertex="1">
+          <mxGeometry height="80" width="240" x="795" y="536" as="geometry" />
+        </mxCell>
+        <mxCell id="14" parent="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="36" width="36" x="897" y="656" as="geometry" />
+        </mxCell>
+        <mxCell id="15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=14;" value="Menghitung total biaya (lama sewa × tarif per hari)" vertex="1">
+          <mxGeometry height="74" width="280" x="390" y="686" as="geometry" />
+        </mxCell>
+        <mxCell id="16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=14;" value="Menyimpan transaksi" vertex="1">
+          <mxGeometry height="60" width="260" x="70" y="691" as="geometry" />
+        </mxCell>
+        <mxCell id="17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=14;" value="Menyimpan data penyewaan dan mengubah status kendaraan menjadi disewa" vertex="1">
+          <mxGeometry height="80" width="300" x="380" y="816" as="geometry" />
+        </mxCell>
+        <mxCell id="18" parent="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="36" width="36" x="512" y="936" as="geometry" />
+        </mxCell>
+        <mxCell id="19" edge="1" parent="1" source="5" style="html=1;endArrow=block;endFill=1;rounded=0;fontSize=13;labelBackgroundColor=#FFFFFF;strokeWidth=1.5;" target="6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="20" edge="1" parent="1" source="6" style="html=1;endArrow=block;endFill=1;rounded=0;fontSize=13;labelBackgroundColor=#FFFFFF;strokeWidth=1.5;" target="7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="21" edge="1" parent="1" source="7" style="html=1;endArrow=block;endFill=1;rounded=0;fontSize=13;labelBackgroundColor=#FFFFFF;strokeWidth=1.5;" target="8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22" edge="1" parent="1" source="8" style="html=1;endArrow=block;endFill=1;rounded=0;fontSize=13;labelBackgroundColor=#FFFFFF;strokeWidth=1.5;" target="9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23" edge="1" parent="1" source="9" style="html=1;endArrow=block;endFill=1;rounded=0;fontSize=13;labelBackgroundColor=#FFFFFF;strokeWidth=1.5;" target="10" value="[tidak valid]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="24" edge="1" parent="1" source="10" style="html=1;endArrow=block;endFill=1;rounded=0;fontSize=13;labelBackgroundColor=#FFFFFF;strokeWidth=1.5;" target="11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="25" edge="1" parent="1" source="9" style="html=1;endArrow=block;endFill=1;rounded=0;fontSize=13;labelBackgroundColor=#FFFFFF;strokeWidth=1.5;" target="12" value="[valid]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="26" edge="1" parent="1" source="12" style="html=1;endArrow=block;endFill=1;rounded=0;fontSize=13;labelBackgroundColor=#FFFFFF;strokeWidth=1.5;" target="13" value="[kendaraan disewa]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="27" edge="1" parent="1" source="13" style="html=1;endArrow=block;endFill=1;rounded=0;fontSize=13;labelBackgroundColor=#FFFFFF;strokeWidth=1.5;" target="14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="28" edge="1" parent="1" source="12" style="html=1;endArrow=block;endFill=1;rounded=0;fontSize=13;labelBackgroundColor=#FFFFFF;strokeWidth=1.5;" target="15" value="[kendaraan tersedia]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="29" edge="1" parent="1" source="15" style="html=1;endArrow=block;endFill=1;rounded=0;fontSize=13;labelBackgroundColor=#FFFFFF;strokeWidth=1.5;" target="16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="30" edge="1" parent="1" source="16" style="html=1;endArrow=block;endFill=1;rounded=0;fontSize=13;labelBackgroundColor=#FFFFFF;strokeWidth=1.5;" target="17" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="856" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="31" edge="1" parent="1" source="17" style="html=1;endArrow=block;endFill=1;rounded=0;fontSize=13;labelBackgroundColor=#FFFFFF;strokeWidth=1.5;" target="18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

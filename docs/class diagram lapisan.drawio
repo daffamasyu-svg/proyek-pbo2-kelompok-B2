@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="NypptdWloiGmvxw-JA56">
+    <mxGraphModel dx="554" dy="302" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="k-HkLqyvrX4xJaoQQbc--1" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="FormPenyewaan" vertex="1">
+          <mxGeometry height="100" width="140" x="380" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="k-HkLqyvrX4xJaoQQbc--2" parent="k-HkLqyvrX4xJaoQQbc--1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ tampil Form()&lt;div&gt;+ klikSimpan()&lt;/div&gt;&lt;div&gt;+ tampilPesan()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="140" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="k-HkLqyvrX4xJaoQQbc--5" edge="1" parent="1" source="k-HkLqyvrX4xJaoQQbc--2" style="endArrow=none;dashed=1;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=0.475;exitY=1.038;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="500" y="320" as="sourcePoint" />
+            <mxPoint x="446.5" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k-HkLqyvrX4xJaoQQbc--6" connectable="0" parent="k-HkLqyvrX4xJaoQQbc--5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="memanggil" vertex="1">
+          <mxGeometry relative="1" x="-0.4848" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k-HkLqyvrX4xJaoQQbc--8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="447" y="351" as="sourcePoint" />
+            <mxPoint x="447" y="371" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k-HkLqyvrX4xJaoQQbc--9" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="penyewaanController" vertex="1">
+          <mxGeometry height="78" width="140" x="380" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="k-HkLqyvrX4xJaoQQbc--10" parent="k-HkLqyvrX4xJaoQQbc--9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ simpanPenyewaan()&lt;div&gt;+ validasiInput()&lt;/div&gt;&lt;div&gt;+ hitungtotalBiaya()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="52" width="140" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="k-HkLqyvrX4xJaoQQbc--17" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;div&gt;PenyewaanDAO&lt;/div&gt;" vertex="1">
+          <mxGeometry height="104" width="250" x="335" y="516" as="geometry" />
+        </mxCell>
+        <mxCell id="k-HkLqyvrX4xJaoQQbc--19" parent="k-HkLqyvrX4xJaoQQbc--17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ simpan(data : Penyewaan) : boolean&lt;div&gt;+ cekKetersediaan(platNomor : String) : boolean&lt;/div&gt;&lt;div&gt;+ ubahStatusKendaraan(platNomor : String, status : String) : boolean&lt;/div&gt;" vertex="1">
+          <mxGeometry height="78" width="250" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="k-HkLqyvrX4xJaoQQbc--21" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="penyewaan" vertex="1">
+          <mxGeometry height="120" width="180" x="360" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="k-HkLqyvrX4xJaoQQbc--22" parent="k-HkLqyvrX4xJaoQQbc--21" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- idPenyewaan : int&lt;div&gt;- tanggalSewa : Date&lt;/div&gt;&lt;div&gt;- lamaSewa&amp;nbsp; : int&lt;/div&gt;&lt;div&gt;- totalBiaya : double&lt;/div&gt;" vertex="1">
+          <mxGeometry height="94" width="180" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="k-HkLqyvrX4xJaoQQbc--26" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=0.475;exitY=1.038;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="450.25" y="448" as="sourcePoint" />
+            <mxPoint x="449.75" y="505" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k-HkLqyvrX4xJaoQQbc--27" connectable="0" parent="k-HkLqyvrX4xJaoQQbc--26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="menggunakan" vertex="1">
+          <mxGeometry relative="1" x="-0.4848" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k-HkLqyvrX4xJaoQQbc--28" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="450" y="496" as="sourcePoint" />
+            <mxPoint x="450" y="516" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k-HkLqyvrX4xJaoQQbc--31" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=0.475;exitY=1.038;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="450.25" y="620" as="sourcePoint" />
+            <mxPoint x="449.75" y="677" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k-HkLqyvrX4xJaoQQbc--32" connectable="0" parent="k-HkLqyvrX4xJaoQQbc--31" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="mengakses data" vertex="1">
+          <mxGeometry relative="1" x="-0.4848" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k-HkLqyvrX4xJaoQQbc--33" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="450" y="660" as="sourcePoint" />
+            <mxPoint x="450" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
